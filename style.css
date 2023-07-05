@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(137, 164, 238);
+}
+
+#acesso {
+  background-color: white;
+  padding: .6rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: .5rem;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#acesso h1 {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(75, 75, 184);
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.input input {
+  padding-left: 5px;
+}
+
+.input span {
+  font-size: 13px;
+  color: rgb(45, 45, 109);
+}
+
+#MostrarSenha {
+  font-size: 12px;
+  color: rgb(45, 45, 109);
+  display: flex;
+  gap: .3rem;
+  align-items: center;
+}
+
+#entrar {
+  margin-top: .5rem;
+  background-color: rgb(37, 37, 211);
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#avisoErro {
+  background-color: rgb(241, 46, 46);
+  padding: 3px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  left: 5%;
+  bottom: 3%;
+  position: absolute;
+}
+
+#main {
+  display: none;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  padding: 1rem;
+  width: 300px;
+}
+
+#main h1 {
+  font-size: 24px;
+  text-align: center;
+  color: rgb(75, 75, 184);
+}
+
+#main p {
+  font-size: 14px;
+  text-align: justify;
+  color: rgb(45, 45, 109);
+}
